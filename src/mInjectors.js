@@ -1,15 +1,15 @@
 exports.mod = () => {
     logger.logInfo("[MOD] Multiple Use Stimulants");
-    base = fileIo.readParsed(user.cache.items);
+    base = fileIO.readParsed(db.user.cache.items);
     let config = require("../config.json");
-    for (let k in base) {
-        let item = base[k];
+    for (let item in base.data) {
         for (key in config.stims) {
-            if (key == item._name) {
-                item._props.MaxHpResource = config.stims[key];
-                global._database.items[k] = item;
+            if (key == base.data[item]._name) {
+                base.data[item]._props.MaxHpResource = config.stims[key];
+                base.data[item]._props.hpResourceRate = 1;
             }
         }
     }
+    fileIO.write(db.user.cache.items, base);
     logger.logSuccess("[Mod] Stimulator Successfully multipled");
 }
