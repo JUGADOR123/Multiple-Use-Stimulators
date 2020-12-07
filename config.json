@@ -1,0 +1,18 @@
+{
+    "stims": {
+        "3-(b-TG)": 3,
+        "AHF1-M": 4,
+        "Adrenaline": 5,
+        "L1": 2,
+        "M.U.L.E": 2,
+        "Meldonin": 6,
+        "Obdolbos": 2,
+        "P22": 4,
+        "Propital": 3,
+        "SJ1_TGLabs": 5,
+        "SJ6_TGLabs": 3,
+        "Zagustin": 5,
+        "eTG_change": 6,
+        "morphine":5
+    }
+}

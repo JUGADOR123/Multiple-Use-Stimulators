@@ -1,0 +1,11 @@
+{
+	"name": "Minjectors",
+	"author": "Jugador123",
+	"version": "2.0.1",
+	"license": "MIT",
+	"autoUpdate": true,
+	"checkUpdateUrl":"",
+	"src": {
+		"src/mInjectors.js": "CacheModLoad"
+	}
+}
