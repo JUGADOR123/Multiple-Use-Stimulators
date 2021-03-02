@@ -7,7 +7,6 @@ exports.mod = () => {
         for (key in config.stims) {
             if (key == item._name) {
                 item._props.MaxHpResource = config.stims[key];
-                base.data[item]._props.hpResourceRate = 1;
                 base.data[k] = item;
                
             }
