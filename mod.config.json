@@ -1,11 +1,9 @@
 {
 	"name": "Minjectors",
 	"author": "Jugador123",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"license": "MIT",
-	"autoUpdate": true,
-	"checkUpdateUrl":"https://raw.githubusercontent.com/JUGADOR123/Multiple-Use-Stimulators/main/updater.json",
 	"src": {
-		"src/mInjectors.js": "CacheModLoad"
+		"src/mInjectors.js": "TamperModLoad"
 	}
 }
