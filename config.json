@@ -1,18 +1,20 @@
 {
     "stims": {
-        "3-(b-TG)": 3,
-        "AHF1-M": 4,
+        "3-(b-TG)": 5,
+        "AHF1-M": 5,
         "Adrenaline": 5,
-        "L1": 2,
-        "M.U.L.E": 2,
-        "Meldonin": 6,
-        "Obdolbos": 2,
-        "P22": 4,
-        "Propital": 3,
+        "L1": 5,
+        "M.U.L.E": 5,
+        "Meldonin": 5,
+        "Obdolbos": 5,
+        "P22": 5,
+        "Propital": 5,
         "SJ1_TGLabs": 5,
-        "SJ6_TGLabs": 3,
+        "SJ6_TGLabs": 5,
         "Zagustin": 5,
-        "eTG_change": 6,
-        "morphine":5
+        "eTG_change": 5,
+        "morphine":5,
+        "SJ9_TGLabs":5,
+        "x-TG-12_antidote":5
     }
 }
